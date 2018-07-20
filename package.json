@@ -1,6 +1,6 @@
 {
   "name": "@dev-essentials/inflow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Efficiently process text streams line-by-line",
   "main": "index.js",
   "scripts": {

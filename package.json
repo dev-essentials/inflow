@@ -1,0 +1,19 @@
+{
+  "name": "@dev-essentials/inflow",
+  "version": "0.0.1",
+  "description": "Efficiently process text streams line-by-line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-essentials/inflow.git"
+  },
+  "author": "Marco Quinten <splittydev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-essentials/inflow/issues"
+  },
+  "homepage": "https://github.com/dev-essentials/inflow#readme"
+}

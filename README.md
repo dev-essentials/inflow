@@ -14,8 +14,8 @@ Inflow supports:
 
 Asynchronous access (async/await):
 ```js
-const Influx = require('influx');
-const stream = Influx.stdin();
+const Inflow = require('@dev-essentials/inflow');
+const stream = inflow.stdin();
 
 let line;
 while (line = await stream.nextAsync()) {
@@ -25,8 +25,8 @@ while (line = await stream.nextAsync()) {
 
 Asynchronous access (without async/await):
 ```js
-const Influx = require('influx');
-const stream = Influx.stdin();
+const Inflow = require('@dev-essentials/inflow');
+const stream = inflow.stdin();
 
 const handler = line => {
     if (!line) return;
@@ -39,8 +39,8 @@ stream.nextAsync().then(handler);
 
 Asynchronous access (callback):
 ```js
-const Influx = require('influx');
-const stream = Influx.stdin({
+const Inflow = require('@dev-essentials/inflow');
+const stream = inflow.stdin({
     callback: line => {
         console.log(line);
     },
